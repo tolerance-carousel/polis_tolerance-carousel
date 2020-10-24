@@ -68,8 +68,8 @@ Polis can automatically translate comment text for users based on their browser'
 To turn this on, the following steps need to be taken:
 
 * Set env variable `SHOULD_USE_TRANSLATION_API=true`
-* Ensure there are translations in the [strings file](https://github.com/pol-is/polisClientParticipation/tree/master/js/strings) for any language for which you'd like to provide translations (we can't show a button offering a translation if we don't know how to offer said translation).
-  Specifically, you must specify the `showTranslationButton`, `hideTranslationButton`, `thirdPartyTranslationDisclaimer` translations, and may wish to refer to the [en_us translation file](https://github.com/pol-is/polisClientParticipation/blob/master/js/strings/en_us.js):
+* Ensure there are translations in the [strings file](https://github.com/pol-is/polisClientParticipation/tree/main/js/strings) for any language for which you'd like to provide translations (we can't show a button offering a translation if we don't know how to offer said translation).
+  Specifically, you must specify the `showTranslationButton`, `hideTranslationButton`, `thirdPartyTranslationDisclaimer` translations, and may wish to refer to the [en_us translation file](https://github.com/pol-is/polisClientParticipation/blob/main/js/strings/en_us.js):
     s.showTranslationButton = "Activate third-party translation";
     s.hideTranslationButton = "Deactivate Translation";
     s.thirdPartyTranslationDisclaimer = "Translation provided by a third party";
