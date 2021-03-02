@@ -52,6 +52,8 @@ services:
       dockerfile: Dockerfile-db
     networks:
       - "polis-dev"
+    ports:
+      - "5432:5432"
     volumes:
       - "backups:/backups"
       - "postgres:/var/lib/postgresql/data"
