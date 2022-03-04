@@ -9,6 +9,10 @@ Build with no cache from previous builds: `docker-compose build --parallel --no-
 # Useful files
 - `constants.js` (update character limit)
 
+# TODO
+- Set/encourage minimum of 7 votes
+- Notify video server to continue video
+
 ## ©️  License
 
 [AGPLv3 with additional permission under section 7](/LICENSE)
