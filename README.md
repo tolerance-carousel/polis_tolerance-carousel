@@ -1,9 +1,13 @@
 # Build commands
 Build: `docker-compose build client-admin client-participation client-report`
+Build participation: `docker-compose build client-participation`
 
 Run: `docker-compose up --build --detach`
 
-Full re-build with no cache from previous builds: `docker-compose build --parallel --no-cache`
+Build with no cache from previous builds: `docker-compose build --parallel --no-cache`
+
+# Useful files
+- `constants.js` (update character limit)
 
 ## ©️  License
 
