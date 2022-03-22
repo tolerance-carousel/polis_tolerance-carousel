@@ -20,14 +20,18 @@ class ModerateCommentsAccepted extends React.Component {
   }
 
   createCommentMarkup() {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+    const isInLiveFeedMode = params.livefeed;
+
     const comments = this.props.accepted_comments.map((comment, i) => {
       return (
         <Comment
           key={i}
-          rejectButton
+          rejectButton={!isInLiveFeedMode}
           rejectClickHandler={this.onCommentRejected.bind(this)}
           rejectButtonText="reject"
-          isMetaCheckbox
+          isMetaCheckbox={!isInLiveFeedMode}
           toggleIsMetaHandler={this.toggleIsMetaHandler.bind(this)}
           comment={comment}
         />
