@@ -24,12 +24,13 @@ const mapStateToProps = (state, ownProps) => {
   }
 }
 
-const pollFrequency = 60000
+const pollFrequency = 1000
 
 @connect((state) => state.zid_metadata)
 @connect(mapStateToProps)
 class CommentModeration extends React.Component {
   loadComments() {
+    console.log("Loading comments...");
     const { match } = this.props
     this.props.dispatch(populateAllCommentStores(match.params.conversation_id))
   }
