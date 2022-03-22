@@ -1,6 +1,7 @@
 # Build commands
 Build: `docker-compose build client-admin client-participation client-report`
 Build participation: `docker-compose build client-participation`
+Build admin: `docker-compose build client-admin`
 
 Run: `docker-compose up --build --detach`
 
