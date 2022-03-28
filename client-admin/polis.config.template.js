@@ -6,6 +6,7 @@ module.exports = {
     "^localhost$",
     "^127\\.0\\.0\\.1$",
     "^192\\.168\\.1\\.140$",
+    "^84\\.247\\.13\\.154$",
     // sample configuration for main pol.is deployment
     "^pol\\.is",
     ".+\\.pol\\.is$",
