@@ -1,3 +1,10 @@
+# Notes
+export DOMAIN_WHITELIST_ITEM_01=[WHITELISTED_IP]
+Try with .sslip.io suffix (e.g., http://123.45.67.89.sslip.io/)
+
+For deployment, check diffs: https://github.com/compdemocracy/polis/compare/dev...Demos-thinktank:demos-dev
+
+
 # Build commands
 Build: `docker-compose build client-admin client-participation client-report`
 Build participation: `docker-compose build client-participation`

@@ -21,7 +21,7 @@ module.exports = {
   FB_APP_ID: '661042417336977',
 
   //SERVICE_URL: 'http://localhost:5000',
-  SERVICE_URL: 'https://preprod.pol.is',
+  SERVICE_URL: 'http://84.247.13.154:5000',
 
   UPLOADER: 'local', // alt: s3, scp
 
