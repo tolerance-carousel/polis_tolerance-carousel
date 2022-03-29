@@ -6,6 +6,7 @@ module.exports = {
     "^localhost$",
     "^127\\.0\\.0\\.1$",
     "^192\\.168\\.1\\.140$",
+    "^84\\.247\\.13\\.154$",
     // sample configuration for main pol.is deployment
     "^pol\\.is",
     ".+\\.pol\\.is$",
@@ -20,7 +21,7 @@ module.exports = {
   FB_APP_ID: '661042417336977',
 
   //SERVICE_URL: 'http://localhost:5000',
-  SERVICE_URL: 'https://preprod.pol.is',
+  SERVICE_URL: 'http://84.247.13.154:5000',
 
   UPLOADER: 'local', // alt: s3, scp
 
