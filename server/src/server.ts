@@ -1400,7 +1400,7 @@ function initializePolisHelpers() {
     "facebook.com",
     "api.twitter.com",
     "connect.stripe.com",
-  "84.247.13.154:5000/",
+    "https://polis.boasmedia.nl",
     "", // for API
   ];
 

@@ -15,7 +15,7 @@ module.exports = {
 
   // Point to a polisServer instance (local recommended for dev)
   //SERVICE_URL: "http://localhost:5000", // local server; recommended for dev
-  SERVICE_URL: "http:localhost:5000",
+  SERVICE_URL: "https://polis.boasmedia.nl",
 
   // Used for setting appropriate hostname for embedding.
   //SERVICE_HOSTNAME: "123.45.67.89.sslip.io",
