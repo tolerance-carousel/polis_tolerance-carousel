@@ -1,9 +1,10 @@
 # Notes
-export DOMAIN_WHITELIST_ITEM_01=[WHITELISTED_IP]
 Try with .sslip.io suffix (e.g., http://123.45.67.89.sslip.io/)
 
 For deployment, check diffs: https://github.com/compdemocracy/polis/compare/dev...Demos-thinktank:demos-dev
 
+Add ENCRYPTION_PASSWORD_00001=[...] in VPS `server/docker-dev.env`
+(optionally add) DOMAIN_WHITELIST_ITEM_01=[WHITELISTED_IP]
 
 # Build commands
 Build: `docker-compose build client-admin client-participation client-report`
@@ -16,10 +17,6 @@ Build with no cache from previous builds: `docker-compose build --parallel --no-
 
 # Useful files
 - `constants.js` (update character limit)
-
-# TODO
-- Set/encourage minimum of 7 votes
-- Notify video server to continue video
 
 ## ©️  License
 
