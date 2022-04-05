@@ -6,6 +6,7 @@ module.exports = {
     "^192\\.168\\.1\\.140$",
     "^84\\.247\\.13\\.154$",
     "^polis\\.boasmedia\\.nl",
+    "^polis\\.boasmedia\\.nl$",
     // sample configuration for main pol.is deployment
     "^pol\\.is",
     ".+\\.pol\\.is$",
