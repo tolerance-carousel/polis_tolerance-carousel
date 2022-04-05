@@ -100,11 +100,11 @@ services:
     image: maildev/maildev:1.1.0
     networks:
       - "polis-net"
-    ports:
-      # User interface
-      - "1080:80"
-      # SMTP port
-      - "25:25"
+#    ports:
+#      # User interface
+#      - "1080:80"
+#      # SMTP port
+#      - "25:25"
 
 networks:
   polis-net:
