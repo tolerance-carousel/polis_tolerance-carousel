@@ -1401,7 +1401,8 @@ function initializePolisHelpers() {
     "api.twitter.com",
     "connect.stripe.com",
     "https://polis.boasmedia.nl",
-    "", // for API
+    "84.247.13.154",
+    "" // for API
   ];
 
   let whitelistedBuckets = {
