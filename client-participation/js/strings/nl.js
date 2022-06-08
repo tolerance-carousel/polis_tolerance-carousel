@@ -24,7 +24,7 @@ s.info = "Info";
 s.addPolisToYourSite = "<img style='height: 20px. margin: 0px 4px.' src='{{URL}}'/>";
 s.privacy = "Privacy";
 s.TOS = "Servicevoorwaarden";
-s.writePrompt = "Geef uw mening...";
+s.writePrompt = "Deel een nieuwe stelling...";
 s.anonPerson = "Anoniem";
 s.helpWhatAmISeeingTitle = "Wat ben ik aan het bekijken?";
 s.helpWhatAmISeeing = "Mensen met een gelijkaardige mening zijn gegroepeerd. Klik op een groep om hun mening te bekijken.";
@@ -70,7 +70,7 @@ s.tipOneIdea = "Splits lange reacties op in verschillende ideeën. Dit maakt het
 s.tipNoQuestions = "Probeer vragen in uw reacties te vermijden. Deelnemers zullen vervolgens al dan niet akkoord gaan met uw stelling.";
 s.commentTooLongByChars = "De lengte van uw reactie werd met  {{CHARACTERS_COUNT}} karakters overschreden.";
 s.notSentSinceDemo = "(niet echt, dit is een demo)";
-s.submitComment = "Reageer";
+s.submitComment = "Stelling delen";
 s.tipStarred = "Gemarkeerd als belangrijk.";
 s.participantHelpWelcomeText = "Welkom bij een nieuwe soort discussie - <span style='font-weight: 700.'>stem</span> op de meningen van personen en draag bij tot het gesprek door zelf te reageren.";
 s.participantHelpGroupsText = "Personen die gelijkaardig stemmen <span style='font-weight: 700.'>worden gegroepeerd.</span> Klik op een groep om te zien welk standpunt zij innemen <a style='font-weight: 700. cursor: pointer. text-decoration: underline' id='helpTextGroupsExpand'>...more</a>";
