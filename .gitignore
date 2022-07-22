@@ -1,4 +1,4 @@
 *~
 .idea/*
-math/.cpcache/*
-nohup.out
+math/.cpcache
+.DS_store
