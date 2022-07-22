@@ -1,14 +1,3 @@
-polis.boasmedia.nl {
-	reverse_proxy 127.0.0.1:5000
-}
+localhost
 
-
-experience.boasmedia.nl {
-	root * ../interactive-video-experiment/front-end/dist
-	file_server
-	try_files {path} /index.html
-}
-
-backend.boasmedia.nl {
-	reverse_proxy 127.0.0.1:4000
-}
+reverse_proxy 127.0.0.1:5000
