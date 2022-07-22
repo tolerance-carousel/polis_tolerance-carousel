@@ -335,13 +335,14 @@ function userCanSeeVis() {
 
 function userCanSeeFooter() {
   return false;
-  // var params = parseQueryParams(window.location.search);
-  // var ucsf = params.ucsf;
-  // ucsf = (ucsf === "true" || ucsf === "1" || _.isUndefined(ucsf));
-  // if (!ucsf && !ownerCanDisableBranding()) {
-  //   ucsf = true;
-  // }
-  // return ucsf;
+
+  var params = parseQueryParams(window.location.search);
+  var ucsf = params.ucsf;
+  ucsf = (ucsf === "true" || ucsf === "1" || _.isUndefined(ucsf));
+  if (!ucsf && !ownerCanDisableBranding()) {
+    ucsf = true;
+  }
+  return ucsf;
 }
 
 function userCanSeeHelp() {
@@ -369,9 +370,10 @@ function userCanSeeSubscribePrompt() {
   return x;
 }
 
-// function ownerCanDisableBranding() {
-//   return window.preload.firstConv.plan >= 99;
-// }
+function ownerCanDisableBranding() {
+  return true;
+  return window.preload.firstConv.plan >= 99;
+}
 
 function getXid() {
   var params = parseQueryParams(window.location.search);
